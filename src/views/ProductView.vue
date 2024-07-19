@@ -31,6 +31,11 @@ export default {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .home-button:hover{
+    background-color: #ff96c5;
   }
 
 </style>
