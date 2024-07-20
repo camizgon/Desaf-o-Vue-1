@@ -1,14 +1,11 @@
 <template>
-  <Card />
+  <h1>Bienvenidos!!!</h1>
 </template>
 
 <script>
-// @ is an alias to /src
-import Card from '../components/Card.vue'
+
 
 export default {
-  components: {
-    Card
-  }
+  name: 'HomeView',
 }
 </script>

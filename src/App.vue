@@ -1,16 +1,16 @@
 <template>
   <Navbar />
-  
-  <router-view/>
-  
-  <medios-pago/>
-  <Footer />
+  <router-view />
+  <div>
+    <medios-pago />
+    <Footer />
+  </div>
 </template>
 
 <script>
-import Navbar from '@/components/Navbar.vue'
-import Footer from '@/components/Footer.vue'
-import MediosPago from '@/components/MediosPago.vue'
+import Navbar from './components/Navbar.vue';
+import Footer from './components/Footer.vue';
+import MediosPago from './components/MediosPago.vue';
 
 export default {
   name: 'HomeView',
@@ -19,5 +19,9 @@ export default {
     Footer,
     MediosPago
   }
-}
+};
 </script>
+
+<style>
+
+</style>
